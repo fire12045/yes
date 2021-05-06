@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+      Draw with the mouse in a HTML5 canvas
+    </title>
+  </head>
+
+  <body>
+    <b>Draw anything you want</b>
+    <hr>
+    <div>
+      <form action="/action_page.php">
+        <label for="cars">Customize your drawing:</label>
+        <select name="cars" id="cars">
+					<optgroup label="Color">
+						
+					</optgroup>
+          <optgroup id="tip" label="Tip">
+          	<option value="butt">Butt</option>
+						<option value="round">Round</option>
+						<option value="square" selected>Square</option>
+          </optgroup>
+        </select>
+      </form>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="index.js"></script>
+  </body>
+
+</html>
